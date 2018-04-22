@@ -57,6 +57,15 @@ h6 {
   font-weight: 700;
 }
 
+h2 {
+  color: #{{ site.data.template.color.secondary-dark }};
+}
+
+h4 {
+  color: #{{ site.data.template.color.secondary }};
+}
+
+
 .img-centered {
   margin: 0 auto;
 }
@@ -231,7 +240,7 @@ fieldset[disabled] .btn-xl.active {
 .navbar-default .navbar-nav>.active>a {
   border-radius: 0;
   color: #fff;
-  background-color: #{{ site.data.template.color.primary }};
+  background-color: #{{ site.data.template.color.secondary }};
 }
 
 .navbar-default .navbar-nav>.active>a:hover,
@@ -357,17 +366,17 @@ section {
 
 section h2.section-heading {
   margin-top: 0;
-  margin-bottom: 15px;
-  font-size: 40px;
+  margin-bottom: 55px;
+  font-size: 66px;
+  font-weight: 900;
 }
 
-section h3.section-subheading {
-  margin-bottom: 75px;
-  text-transform: none;
-  font-family: {{ site.data.template.font.secondary }};
-  font-size: 16px;
-  font-style: italic;
-  font-weight: 400;
+
+
+section h4 {
+  text-align: left;
+  font-size: 36px;
+  font-weight: 900;
 }
 
 @media(min-width:768px) {
@@ -377,8 +386,38 @@ section h3.section-subheading {
 }
 
 .service-heading {
-  margin: 15px 0;
+  margin: 66px 0 ;
   text-transform: none;
+}
+
+.section-subheading {
+  color: #{{ site.data.template.color.secondary-dark }};
+  font-weight: 100;
+  font-size: 26px;
+  text-transform: none;
+  line-height: 48px;
+}
+
+#eos p.text-muted {
+  color: #{{ site.data.template.color.secondary-dark }};
+  font-size: 18px;
+  text-align: left;
+}
+
+#mission {
+  background-color: #64D8F0;
+}
+
+.worldmap {
+  background-attachment: scroll;
+  background-image: url('/img/world-map.jpg');
+  background-position: top center;
+  background-repeat: none;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  height: 630px;
 }
 
 #portfolio .portfolio-item {
@@ -790,7 +829,7 @@ ul.social-buttons li a {
 ul.social-buttons li a:hover,
 ul.social-buttons li a:focus,
 ul.social-buttons li a:active {
-  background-color: #{{ site.data.template.color.primary }};
+  background-color: #{{ site.data.template.color.secondary }};
 }
 
 .btn:focus,
