@@ -22,11 +22,23 @@
 
         <a class="more-posts" href="/posts.html">More updates</a>
 
-
-
       </div>
       <div class="col-md-6 events">
         <h3>Events</h3>
+
+        <ul class="meetup-list">
+          {% for meetup in site.data.meetups %}
+          <li>
+            {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
+            <span class="meetup-meta">{{ meetup.local_date | date: date_format }}</span>
+
+            <h5>
+              <a class="meetup-link" href="{{ meetup.link | relative_url }}">{{ meetup.name | escape }}</a>
+            </h5>
+          </li>
+          {% endfor %}
+        </ul>
+
       </div>
     </div>
   </div>
