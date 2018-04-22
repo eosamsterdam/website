@@ -455,6 +455,35 @@ section h4 {
   }
 }
 
+#tech {
+  background-color: #010053;
+}
+
+#tech .section-heading {
+  color: #fff;
+}
+
+#tech .section-subheading {
+  color: #64D8F0;
+}
+
+
+#tech div.row.datacenters  {
+  padding-top: 100px;
+}
+
+#tech div.row.datacenters h4  {
+  font-size: 24px;
+}
+
+
+#tech div.row.datacenters p {
+  color: #fff;
+}
+
+#tech div.row.datacenters a {
+  text-decoration: underline;
+}
 
 .worldmap {
   background-attachment: scroll;
