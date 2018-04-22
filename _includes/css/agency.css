@@ -510,7 +510,10 @@ section h4 {
   }
 }
 
-#updates-and-events { margin-top: -200px }
+
+#updates-and-events {
+  padding: 0px;
+}
 
 #updates-and-events .updates {
     background-color: #010053;
@@ -518,8 +521,6 @@ section h4 {
     padding-left: 100px;
     padding-bottom: 100px;
 }
-
-
 
 #updates-and-events .updates ul  {
   padding: 0px;

@@ -1,30 +1,33 @@
 <section id="updates-and-events">
   <div class="container">
-    <div class="col-md-6 updates">
-      <h3 class="section-heading">Updates</h3>
+    <div class="row">
 
-      <ul class="post-list">
-        {% for post in site.posts %}
-        <li>
-          {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
-          <span class="post-meta">{{ post.date | date: date_format }}</span>
+      <div class="col-md-6 updates">
+        <h3 class="section-heading">Updates</h3>
 
-          <h5>
-            <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
-          </h5>
-          <p>{{ post.subtitle }}</p>
-        </li>
-        {% endfor %}
-      </ul>
+        <ul class="post-list">
+          {% for post in site.posts %}
+          <li>
+            {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
+            <span class="post-meta">{{ post.date | date: date_format }}</span>
 
-
-      <a class="more-posts" href="/posts.html">More updates</a>
-
+            <h5>
+              <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
+            </h5>
+            <p>{{ post.subtitle }}</p>
+          </li>
+          {% endfor %}
+        </ul>
 
 
-    </div>
-    <div class="col-md-6 events">
-      <h3>Events</h3>
+        <a class="more-posts" href="/posts.html">More updates</a>
+
+
+
+      </div>
+      <div class="col-md-6 events">
+        <h3>Events</h3>
+      </div>
     </div>
   </div>
 </section>
