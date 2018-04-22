@@ -52,10 +52,16 @@ people:
 social:
   - title: twitter
     url: https://twitter.com/eosamsterdam
-  - title: steemit
+  - title: external-link
     url: https://steemit.com/@eosamsterdam
   - title: github
-    url: http://github.com/eosamsterdam
+    url: https://github.com/eosamsterdam
+  - title: facebook
+    url: https://www.facebook.com/eos.amsterdam
+  - title: reddit
+    url: https://www.reddit.com/user/eosamsterdam
+
+
 
 # Postal address (add as many lines as necessary)
 address:
