@@ -486,8 +486,13 @@ section h4 {
 }
 
 #team h4 {
-  margin: 0;
+  margin: 20px 0 12px;
 }
+
+#team h5 {
+  margin-bottom: 40px;
+}
+
 
 #team p a {
   color: #010053;
