@@ -335,8 +335,8 @@ header .intro-text {
 }
 
 header .intro-text .logo {
-  width: 400px;
-  height: 400px;
+  width: 380px;
+  height: 380px;
   background-image: url('/img/logo.png');
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -344,6 +344,12 @@ header .intro-text .logo {
   -o-background-size: cover;
 }
 
+@media(max-width:420px) {
+  header .intro-text .logo {
+    width: 280px;
+    height: 280px;
+  }
+}
 
 header .intro-text .intro-text-inner {
 }
