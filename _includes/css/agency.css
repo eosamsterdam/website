@@ -510,6 +510,50 @@ section h4 {
   }
 }
 
+#updates-and-events { margin-top: -200px }
+
+#updates-and-events .updates {
+    background-color: #010053;
+    color: #fff;
+    padding-left: 100px;
+    padding-bottom: 100px;
+}
+
+
+
+#updates-and-events .updates ul  {
+  padding: 0px;
+  margin-bottom: 50px;
+  margin-right: 50px;
+}
+
+#updates-and-events .updates ul li {
+  list-style: none;
+}
+
+#updates-and-events .updates .post-meta  {
+}
+
+#updates-and-events .updates h3  {
+  color: #64D8F0;
+  margin: 100px 0 50px;
+}
+
+
+#updates-and-events .updates h5  {
+  margin: 0;
+  font-size: 20px;
+  text-transform: none;
+}
+
+
+#updates-and-events .updates h5 a {
+    color: #64D8F0;
+}
+
+#updates-and-events  .events {
+    background-color: #64D8F0;
+  }
 
 .worldmap {
   background-attachment: scroll;

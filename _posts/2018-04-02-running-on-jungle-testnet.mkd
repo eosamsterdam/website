@@ -1,0 +1,124 @@
+---
+layout: post
+title:  "EOS Amsterdam producing blocks on the Jungle3 Testnet"
+subtitle:  "producing like a cheetah in the jungle"
+
+date:   2018-04-02 14:15:14 +0100
+categories: eos eosamsterdam blockproducer infrastructure blogging
+---
+
+## Wonderfull community
+
+Shoutout for the great work of the
+[@CryptoLions](https://steemit.com/@cryptolions) team who made it very
+easy to get moving to be a part of their jungle!
+
+For all producers wanting to join the testnet
+instructions can be found at:
+[Jungle3Testnet](https://github.com/CryptoLions/Jungle3Testnet).
+
+## On a Sunday night
+
+Never a dull moment in the EOS community, as the channels are flooded
+ 24x7 with enthusiasts playing around with the next releases of EOS.
+
+### Server, what to use?
+
+Reading the web I concluded that many of the block producers are
+running >10 core machines with >64Gb of memory. Strange, why so many cores?
+
+Listening to Thomas Cox in one of his latest interviews he suggested
+running a fast 2 core machine with a lot of memory for the first single
+threaded releases.  Only 2 cores?? Yes! As all contract code will be
+processed in a single thread which made a lot of sense to me. One CPU
+is busy processing blocks and messages while the other CPU is
+essentially there to make sure the OS and supporting processes don't
+block.
+
+As such I wanted to focus on fast network, redundancy and ability
+wanted to try something different I choose a fast 2 core machine with
+64Gb of memory near the AMS backbone. Providing low latency access to
+80% of Europe. If that is not a value proposition what is ;-)
+
+I configured the machine and posted to the Jungle Telegram Channel
+my configuration at 3:41 in the evening. Yawn.
+
+![This is my machine, add me pls](https://cdn.pbrd.co/images/HeK4iBn.png)
+
+## A good night sleep
+
+Woke up in the morning to see if my machine was working as expected,
+and yes. My hardware and network connection blasted away but I was not
+voted in the network yet... damn.
+
+After a message to the telegram channel, the Lions awoke and started voting
+in the new candidates.
+
+![Vote me in please](https://cdn.pbrd.co/images/HeK0Lg1.png)
+
+And Boom after 30 minutes I am on the list :-)
+
+## Waiting for the sync
+
+For some reason, it took a while, say 20 minutes before the new
+candidates started to actually produce blocks. So I was watching
+with a lot of concentration. And yes!
+
+<!--
+![First block and transaciton produced!!](/assets/pimgs/first-block-produced.png)
+-->
+
+![First block and transaction produced!!](https://cdn.pbrd.co/images/HeJY34h.png)
+
+
+
+Boom! Cheetah is running wild!! See @ [Jungle3 Testnet Network monitor](http://jungle.cryptolions.io:9898/monitor3/)
+
+## Inspiration for EOS Amsterdam infrastructure
+
+It is wonderful to see how many questions were answered and how
+supportive the community is. It all started with the question of how
+to setup failover, for which I thought up an overly complex approach.
+[See the post here](https://steemit.com/utopian-io/@monetashi/eos-block-producer-pools).
+
+
+First of all [@roelandp](https://steemit.com/@roelandp) shared with us some of his years of experience
+in the bit shares and steemit community running as a witness and
+answered the question on how to keep a block producer synched with the
+network without actually producing blocks.
+
+[https://github.com/roelandp/Bitshares-Witness-Monitor/blob/master/witnesshealth.py#L90](https://github.com/roelandp/Bitshares-Witness-Monitor/blob/master/witnesshealth.py#L90)
+
+Wonderful, then Syed from [@eoscafe](https://steemit.com/@eoscafe) introduced the wish to use a p2p
+system to not have a single point of failure. From this came my
+experience with managing microservices spanning multiple datacenters.
+
+As with p2p, you have to do leader election, which reminded me of
+ [Raft Consensus](https://raft.github.io/). Which put me on the track
+of the complete hashicorp toolset which I have worked with for years,
+especially
+[Consul](https://www.consul.io/docs/guides/leader-election.html) which brings together
+health checking, leader election, and multiple datacenter
+coordination. And [Vault](https://www.vaultproject.io/) for handling
+secrets, key rotation. Why didn't I think of this before?
+
+Boom! The coming period I will be working on designing a multiple
+datacenter infrastructure based on the hashicorp toolset.
+
+The emergence of open creative people working together. Wonderfull!
+
+### The map of the Jungle Testnet
+
+Marcin, from [@EosGreen](https://steemit.com/@eosgreen) made a map of
+the testnet. Amazing to see how our community is organizing itself, we
+are covering the whole world right now. And EOS Amsterdam is proud to
+be that little red circle in Amsterdam :-)
+
+![Jungle3 Testnet](https://cdn.pbrd.co/images/HeKisZB.png)
+
+## Shoutouts to our vibrant community
+
+EOS Amsterdam is humbled to be part of this great vibrant community, shoutout again to
+[@eosgo](https://steemit.com/@eosgo) for being a great source of information, and all the other candidates
+mentioned in the
+[list](https://steemit.com/eos/@eosgo/block-producer-candidate-report-4-march-28-2018). And ofcourse my friend [@artakush](https://steemit.com/@artakush) who introduced me to steemit and is always somewhere in the bush!

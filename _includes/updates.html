@@ -1,0 +1,30 @@
+<section id="updates-and-events">
+  <div class="container">
+    <div class="col-md-6 updates">
+      <h3 class="section-heading">Updates</h3>
+
+      <ul class="post-list">
+        {% for post in site.posts %}
+        <li>
+          {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
+          <span class="post-meta">{{ post.date | date: date_format }}</span>
+
+          <h5>
+            <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
+          </h5>
+          <p>{{ post.subtitle }}</p>
+        </li>
+        {% endfor %}
+      </ul>
+
+
+      <a class="more-posts" href="/posts.html">More updates</a>
+
+
+
+    </div>
+    <div class="col-md-6 events">
+      <h3>Events</h3>
+    </div>
+  </div>
+</section>

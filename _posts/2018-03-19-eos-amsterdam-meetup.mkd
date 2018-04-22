@@ -1,0 +1,38 @@
+---
+layout: post
+title:  "EOS Amsterdam Meetup #1 - En Passant The Hague"
+subtitle:  "first meetup in a colourful chessclub in the city center"
+date:   2018-03-19 17:31:14 +0100
+categories: eos meetup eosamsterdam
+---
+
+We are very happy to report @eosamsterdam's first [Meetup](https://www.meetup.com/EOS-Amsterdam/events/248538574/). Organised by @monetashi at the colorful chess-club in the center of The Hague "En Passant".
+
+This was not only the first meetup of **EOS Amsterdam**, but the first EOS meetup ever in the Netherlands!
+
+### Video
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/mcisCmCdJ38" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+## Steemians evangelizing EOS
+We had @artakush and @minigunner there, two enthusiastic content creators on the steemit blockchain. They were very happy to explain what steemians already know, and non-steemians have trouble to understand: "What it is like to actually use a blockchain based application which rewards their producers using inflation". From their enthusiasm two new steemians where born, let's welcome @barv and @foxi30 to the steemit blockchain!
+
+## Conclusion
+A very interesting evening for everybody involved, we had developers, content-creators, and investors talk about how they experienced EOS. The steemians brought real value to the conversation, sharing their experiences on topics like voting, witnesses, whales.
+
+We noticed many topics are not yet understood, and much is still vague as the EOS system is developing. Our plan is to have debates on the EOS constitution, governance, arbitration, and the concept of EOS as real-estate versus Ethereum as oil. Interesting multi-dimensional topics.
+
+## Next meetup
+The next meetup of EOS Amsterdam will probably be organized in Amsterdam. Want to join? Become a member on our [meetup page](https://www.meetup.com/EOS-Amsterdam/)! We will disclose the location there. We will have room for 15 people and the next meetup will be organized in a bigger location, yet to be disclosed.
+
+* Website: [http://www.eosamsterdam.net](http://www.eosamsterdam.net)
+* Twitter: [https://twitter.com/eosamsterdam](https://twitter.com/eosamsterdam)
+* Steem: [https://steemit.com/@eosamsterdam](https://steemit.com/@eosamsterdam)
+* Meetup: [https://www.meetup.com/EOS-Amsterdam/](https://www.meetup.com/EOS-Amsterdam/)
+* Telegram: [https://t.me/eosamsterdam](https://t.me/eosamsterdam)
+* Discord [https://discordapp.com/invite/6scXfhY](https://discordapp.com/invite/6scXfhY)
+
+
+## Shoutouts to our vibrant community
+
+Fellow dutchie running for block producer: @roelandp, the brilliant @eosgo for their community building, and all the other candidates: @eos.detroit, @eos.io-korea, @eos.seo, @eos42, @eosgo, @eosnewyork, @eosphere, @eosys, @saltblock and all candidates I have not mentioned in the [list](https://steemit.com/eos/@eosgo/block-producer-candidate-report-2-march-14-2018).
