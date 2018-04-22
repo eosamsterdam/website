@@ -200,26 +200,26 @@ fieldset[disabled] .btn-xl.active {
   color: #{{ site.data.template.color.secondary }};
 }
 
-.navbar-default .navbar-collapse {
-  border-color: rgba(255,255,255,.02);
+.navbar-default {
+  background-color: rgba(6, 68, 137, 0.8);
 }
 
+
+
 .navbar-default .navbar-toggle {
-  border-color: #{{ site.data.template.color.primary }};
-  background-color: #{{ site.data.template.color.primary }};
 }
 
 .navbar-default .navbar-toggle .icon-bar {
-  background-color: #fff;
 }
 
 .navbar-default .navbar-toggle:hover,
 .navbar-default .navbar-toggle:focus {
-  background-color: #{{ site.data.template.color.primary }};
+  background-color: rgba(6, 68, 137, 0.8);
 }
 
 .navbar-default .nav li a {
   font-family: {{ site.data.template.font.primary }};
+  font-size: 12px;
   font-weight: 100;
   letter-spacing: 1px;
   color: #fff;
@@ -227,7 +227,7 @@ fieldset[disabled] .btn-xl.active {
   -moz-transition: all ease .35s;
   transition: all ease .35s;
   border: 1px solid white;
-  padding: 5px 10px;
+  padding: 3px 6px;
   margin: 5px;
 }
 
@@ -255,9 +255,16 @@ fieldset[disabled] .btn-xl.active {
   margin-top: -25px;
 }
 
-.navbar-default .navbar-brand span {
+@media(max-width:750px) {
+  .navbar-default .navbar-brand {
+    margin: -10px 5px;
+  }
 }
 
+
+  .navbar-default .navbar-brand span:last-child {
+    display: none;
+  }
 
 
 @media(min-width:768px) {
@@ -281,6 +288,11 @@ fieldset[disabled] .btn-xl.active {
     color: #64D8F0;
   }
 
+  .navbar-default .navbar-brand span:last-child {
+    display: inline;
+  }
+
+
 
   .navbar-default .navbar-nav>.active>a {
     border-radius: 3px;
@@ -299,6 +311,7 @@ fieldset[disabled] .btn-xl.active {
   .navbar-default.navbar-shrink .navbar-brand span:last-child {
     opacity: 0.0;
   }
+
 }
 
 header {
