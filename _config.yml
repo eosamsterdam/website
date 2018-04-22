@@ -1,0 +1,68 @@
+# Site settings
+title: EOS Amsterdam / Block Producer Candidate
+email: eosamsterdam@monetashi.io
+description: >- # this means to ignore newlines until "baseurl:"
+  Building, operating and promoting the EOS infrastructure to help
+  people organize into voluntary free-market communities securing
+  life, liberty, and property for all.
+url: https://www.eosamsterdam.net
+baseurl: ''
+
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Team names, titles and social links
+people:
+- name: Boy Maas
+  pic: 1
+  position: Founder / Strategy
+  social:
+    - title: eosamsterdam
+      url: #
+    - title: eosamsterdam
+      url: #
+    - title: eosamsterdam
+      url: #
+
+- name: Rhett Oudkerk Pool
+  pic: 2
+  position: Founder / Security Expert / Strategy
+  social:
+    - title: twitter
+      url: #
+    - title: facebook
+      url: #
+    - title: linkedin
+      url: #
+
+- name: Jetse Sprey
+  pic: 3
+  position: Founder / Legal / Advisor
+  social:
+    - title: twitter
+      url: #
+    - title: facebook
+      url: #
+    - title: google-plus
+      url: #
+
+# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+social:
+  - title: twitter
+    url: https://twitter.com/eosamsterdam
+  - title: steemit
+    url: https://steemit.com/@eosamsterdam
+  - title: github
+    url: http://github.com/eosamsterdam
+
+# Postal address (add as many lines as necessary)
+address:
+  - line: Katerstraat 69
+  - line: 2512DA The Hague
+  - line: Netherlands
+
+# Build settings
+markdown: kramdown
+permalink: pretty
