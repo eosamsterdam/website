@@ -499,6 +499,32 @@ section h4 {
   text-decoration: underline;
 }
 
+#team .team-member  {
+  margin-bottom: 20px;
+}
+
+
+@media(min-width:1200px) {
+
+  #team .team-member h5 {
+    height: 2em;
+  }
+
+
+  #team .team-member p {
+    min-height: 25em;
+  }
+
+}
+
+
+
+#team .team-member a.linkedin {
+  background: #64D8F0;
+  padding: 5px 10px;
+  border-radius: 20px;
+}
+
 @media(max-width:420px) {
   #team .team-member {
     display: flex;
