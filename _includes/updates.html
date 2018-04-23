@@ -28,18 +28,29 @@
       <h3>Events</h3>
 
       <ul class="meetup-list">
-        {% for meetup in site.data.meetups %}
+        {% for meetup in site.data.meetups | reverse %}
         <li>
-          {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
-          <span class="meetup-meta">{{ meetup.local_date | date: date_format }}</span>
+          {% assign date_month =  "%b" %}
+          {% assign date_dom =  "%-d" %}
 
-          <h5>
-            <a class="meetup-link" href="{{ meetup.link | relative_url }}">{{ meetup.name | escape }}</a>
-          </h5>
-          <p>{{ meetup.description | strip_html | slice: 0, 120 }} <i class="fa fa-arrow-right"></i></p>
+
+          <div class="meetup-date">
+            <span class="dom">{{ meetup.local_date | date: date_dom }}</span>
+            <span class="month">{{ meetup.local_date | date: date_month }}</span>
+          </div>
+
+          <div class="meetup-info">
+            <h5>
+              <a class="meetup-link" href="{{ meetup.link  }}">{{ meetup.name | escape }}</a>
+            </h5>
+            <p>{{ meetup.description | strip_html | slice: 0, 120 }} <i class="fa fa-arrow-right"></i></p>
+          </div>
         </li>
         {% endfor %}
       </ul>
+
+      <a class="more-posts" href="https://www.meetup.com/EOS-Amsterdam/">More updates <i class="fa fa-arrow-right"></i></a>
+
     </div>
   </div>
 
