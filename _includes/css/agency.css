@@ -717,8 +717,7 @@ section h4 {
 #contact {
   background-color: #010053;
   color: #fff;
-  height: 100vh;
-
+  min-height: 100vh;
 }
 
 #contact .section-heading {
@@ -734,7 +733,15 @@ section h4 {
   justify-content: center;
 }
 
-
+@media(max-width:400px) {
+  #contact ul {
+    display: flex;
+    margin-top: 20px;
+  }
+  #contact li {
+    margin-right: 10px;
+  }
+}
 
 
 .worldmap {
@@ -747,27 +754,6 @@ section h4 {
   background-size: cover;
   -o-background-size: cover;
   height: 630px;
-}
-
-
-footer {
-  padding: 25px 0;
-  text-align: center;
-}
-
-footer span.copyright {
-  text-transform: uppercase;
-  text-transform: none;
-  font-family: {{ site.data.template.font.primary }};
-  line-height: 40px;
-}
-
-footer ul.quicklinks {
-  margin-bottom: 0;
-  text-transform: uppercase;
-  text-transform: none;
-  font-family: {{ site.data.template.font.primary }};
-  line-height: 40px;
 }
 
 ul.social-buttons {
