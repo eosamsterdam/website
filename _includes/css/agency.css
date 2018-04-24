@@ -245,18 +245,35 @@ fieldset[disabled] .btn-xl.active {
   background-color: #{{ site.data.template.color.secondary }};
 }
 
-.navbar-default .navbar-brand {
+
+.navbar-default .navbar-brand  {
+  display: flex;
+  margin-top: -20px;
+}
+
+.navbar-default .navbar-brand .brand-symbol  {
+  display: none;
+}
+
+.navbar-default .navbar-brand .brand-symbol  {
+  margin-right: 10px;
+}
+
+.navbar-default .navbar-brand .brand-symbol img {
+  width: 32px;
+  margin-top: -2px;
+}
+
+.navbar-default .navbar-brand .brand-text {
   display: flex;
   flex-direction: column;
-  margin-top: -25px;
 }
 
 @media(max-width:750px) {
-  .navbar-default .navbar-brand {
+  .navbar-default .navbar-brand  {
     margin: -10px 5px;
   }
 }
-
 
   .navbar-default .navbar-brand span:last-child {
     display: none;
@@ -280,6 +297,8 @@ fieldset[disabled] .btn-xl.active {
     transition: all .3s;
   }
 
+
+
   .navbar-default .navbar-brand span:last-child {
     color: #64D8F0;
   }
@@ -302,6 +321,10 @@ fieldset[disabled] .btn-xl.active {
 
   .navbar-default.navbar-shrink .navbar-brand {
     margin-top: -18px;
+  }
+
+  .navbar-default.navbar-shrink .navbar-brand .brand-symbol  {
+    display: block;
   }
 
   .navbar-default.navbar-shrink .navbar-brand span:last-child {
@@ -580,9 +603,6 @@ section h4 {
   width: 500px;
 }
 
-
-
-
 #updates-and-events .updates {
     background-color: #010053;
     color: #fff;
@@ -605,6 +625,7 @@ section h4 {
 
 #updates-and-events .updates ul li {
   list-style: none;
+  padding-bottom: 20px;
 }
 
 #updates-and-events .updates .post-meta  {
@@ -649,6 +670,7 @@ section h4 {
 
 #updates-and-events .events ul li {
   list-style: none;
+  padding-bottom: 20px;
 }
 
 #updates-and-events .events .post-meta  {
@@ -689,7 +711,7 @@ section h4 {
 
 #updates-and-events .events .meetup-date {
   display: block;
-  width: 120px;
+  width: 167px;
   background-color: #010053;
   padding: 5px;
   display: flex;
@@ -749,6 +771,18 @@ section h4 {
   min-height: 100vh;
 }
 
+#contact a.steemit img {
+  margin-top: -1.5px;
+  color: #010053;
+  width: 23px;
+  height: 23px;
+}
+
+#contact a.steemit i {
+  color: #010053;
+}
+
+
 #contact .section-heading {
   color: #fff;
 }
@@ -762,7 +796,6 @@ section h4 {
   justify-content: center;
 }
 
-@media(max-width:400px) {
   #contact ul {
     display: flex;
     margin-top: 20px;
@@ -770,8 +803,6 @@ section h4 {
   #contact li {
     margin-right: 10px;
   }
-}
-
 
 .worldmap {
   background-attachment: scroll;
