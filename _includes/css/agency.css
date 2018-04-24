@@ -423,6 +423,15 @@ section h4 {
   text-align: left;
 }
 
+#eos {
+  padding-bottom: 80px;
+}
+
+#eos h4.service-heading {
+  margin-bottom: 40px;
+}
+
+
 #mission {
   background-color: #64D8F0;
 }
@@ -457,6 +466,10 @@ section h4 {
 
 #tech {
   background-color: #010053;
+}
+
+#tech h4 {
+  color: #fff;
 }
 
 #tech .section-heading {
