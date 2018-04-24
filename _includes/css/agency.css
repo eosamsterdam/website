@@ -442,6 +442,10 @@ section h4 {
   margin-top: 80px;
 }
 
+
+/* width had to be set to render correctly
+  on safari but conflicts with responsvie behaviour
+  fo bootststrap so we reset a breakpoint */
 #mission .principles .principle {
   display: flex;
   width: 48%;
