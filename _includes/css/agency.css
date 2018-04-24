@@ -35,12 +35,6 @@ a {
   color: #{{ site.data.template.color.primary }};
 }
 
-a:hover,
-a:focus,
-a:active,
-a.active {
-  color: #{{ site.data.template.color.secondary }};
-}
 
 h1,
 h2,
@@ -175,7 +169,7 @@ fieldset[disabled] .btn-xl.active {
 
 .navbar-default {
   border-color: transparent;
-  background-color: #222;
+  background-color: #64D8F0;
 }
 
 .hr {
@@ -227,24 +221,11 @@ fieldset[disabled] .btn-xl.active {
   margin: 5px;
 }
 
-.navbar-default .nav li a:hover,
-.navbar-default .nav li a:focus {
-  outline: 0;
-  color: #{{ site.data.template.color.primary }};
+#navigation > li > a:hover,
+#navigation > li.active > a
+{
+  background-color: #64D8F0;
 }
-
-.navbar-default .navbar-nav>.active>a {
-  border-radius: 0;
-  color: #fff;
-  background-color: #{{ site.data.template.color.secondary }};
-}
-
-.navbar-default .navbar-nav>.active>a:hover,
-.navbar-default .navbar-nav>.active>a:focus {
-  color: #fff;
-  background-color: #{{ site.data.template.color.secondary }};
-}
-
 
 .navbar-default .navbar-brand  {
   display: flex;
@@ -406,7 +387,7 @@ section h2.section-heading {
   margin-top: 0;
   margin-bottom: 55px;
   font-size: 66px;
-  font-weight: 900;
+  font-weight: 700;
 }
 
 
@@ -414,7 +395,7 @@ section h2.section-heading {
 section h4 {
   text-align: left;
   font-size: 36px;
-  font-weight: 900;
+  font-weight: 600;
 }
 
 @media(min-width:768px) {
@@ -463,10 +444,12 @@ section h4 {
 
 #mission .principles .principle {
   display: flex;
+  width: 48%;
+  margin: 0;
 }
 
 #mission .principles .principle .icon {
-  margin: 0 40px;
+  margin: 0 35px;
 }
 
 /* make sure mobile view looks perfect
@@ -534,11 +517,14 @@ section h4 {
 }
 
 #team h4 {
+  font-size: 32px;
   margin: 20px 0 12px;
 }
 
 #team h5 {
   margin-bottom: 40px;
+  font-size: 16px;
+
 }
 
 
@@ -560,7 +546,7 @@ section h4 {
 
 
   #team .team-member p {
-    min-height: 22em;
+    min-height: 370px;
   }
 
   #team {
