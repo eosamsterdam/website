@@ -448,6 +448,13 @@ section h4 {
   margin: 0;
 }
 
+@media(max-width:990px) {
+  #mission .principles .principle {
+    width: auto;
+  }
+}
+
+
 #mission .principles .principle .icon {
   margin: 0 35px;
 }
