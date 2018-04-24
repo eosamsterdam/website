@@ -19,12 +19,8 @@ body {
 }
 
 p {
-  font-size: 14px;
-  line-height: 1.75;
-}
-
-p.large {
   font-size: 16px;
+  line-height: 1.75;
 }
 
 a,
@@ -467,6 +463,22 @@ section h4 {
 #tech {
   background-color: #010053;
 }
+
+#tech .datacenters div:first-child {
+  margin-bottom: 80px;
+}
+
+
+@media(min-width:1001px) {
+
+  #tech .datacenters div:first-child {
+    padding-right: 40px;
+  }
+  #tech .datacenters div:last-child {
+    padding-left: 40px;
+  }
+}
+
 
 #tech h4 {
   color: #fff;
