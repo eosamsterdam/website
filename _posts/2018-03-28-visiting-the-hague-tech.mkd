@@ -1,0 +1,8 @@
+---
+layout: post
+title:  "EOS Amsterdam visiting The Hague Tech"
+date:   2018-03-28 14:15:14 +0100
+subtitle: "Boy Maas explaining EOS to crypto enthousiasts"
+steemit: https://steemit.com/eos/@artakush/09yl53i9
+categories: eos eosamsterdam blockproducer infrastructure blogging
+---

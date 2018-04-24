@@ -1,8 +1,9 @@
 ---
 layout: post
 title:  "EOS Amsterdam Meetup #1 - En Passant The Hague"
-subtitle:  "first meetup in a colourful chessclub in the city center"
+subtitle:  "First meetup in a colourful chessclub in the city center"
 date:   2018-03-19 17:31:14 +0100
+steemit: https://steemit.com/eos/@eosamsterdam/u6o19nxe
 categories: eos meetup eosamsterdam
 ---
 

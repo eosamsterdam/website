@@ -5,20 +5,21 @@
       <h3 class="section-heading">Updates</h3>
 
       <ul class="post-list">
-        {% for post in site.posts %}
+        {% for post in site.posts limit:3 %}
+        {% if post.hide %} {% continue %} {% endif  %}
         <li>
           {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
           <span class="post-meta">{{ post.date | date: date_format }}</span>
 
           <h5>
-            <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
+            <a class="post-link" href="{{ post.steemit }}">{{ post.title | escape }}</a>
           </h5>
           <p>{{ post.subtitle }} <i class="fa fa-arrow-right"></i></p>
         </li>
         {% endfor %}
       </ul>
 
-      <a class="more-posts" href="/posts.html">More updates <i class="fa fa-arrow-right"></i></a>
+      <a class="more-posts" href="https://steemit.com/@eosamsterdam">More updates <i class="fa fa-arrow-right"></i></a>
     </div>
 
   </div>
@@ -28,7 +29,7 @@
       <h3>Events</h3>
 
       <ul class="meetup-list">
-        {% for meetup in site.data.meetups | reverse %}
+        {% for meetup in site.data.meetups reversed limit:3 %}
         <li>
           {% assign date_month =  "%b" %}
           {% assign date_dom =  "%-d" %}
@@ -49,7 +50,7 @@
         {% endfor %}
       </ul>
 
-      <a class="more-posts" href="https://www.meetup.com/EOS-Amsterdam/">More updates <i class="fa fa-arrow-right"></i></a>
+      <a class="more-posts" href="https://www.meetup.com/EOS-Amsterdam/">More events <i class="fa fa-arrow-right"></i></a>
 
     </div>
   </div>

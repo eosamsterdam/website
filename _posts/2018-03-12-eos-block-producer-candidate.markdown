@@ -4,6 +4,7 @@ title:  "EOS Block Producer Candidate Introduction"
 subtitle:  "a strong solid introduction for a solid blockproducer"
 date:   2018-03-12 17:30:14 +0100
 categories: eos block producer introduction
+hide: true
 ---
 
 EOS Amsterdam would like to officially introduce itself as a founding block producer candidate in the community launch of the [EOS.io](http://EOS.io) based blockchain.

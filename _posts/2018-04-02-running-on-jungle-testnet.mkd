@@ -1,9 +1,10 @@
 ---
 layout: post
 title:  "EOS Amsterdam producing blocks on the Jungle3 Testnet"
-subtitle:  "producing like a cheetah in the jungle"
+subtitle:  "Producing like a cheetah in the jungle"
 
 date:   2018-04-02 14:15:14 +0100
+steemit: https://steemit.com/eos/@eosamsterdam/eos-amsterdam-producing-blocks-on-the-jungle3-testnet
 categories: eos eosamsterdam blockproducer infrastructure blogging
 ---
 
