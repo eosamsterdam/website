@@ -537,7 +537,11 @@ section h4 {
 
 
   #team .team-member p {
-    min-height: 25em;
+    min-height: 22em;
+  }
+
+  #team {
+    padding-bottom: 80px;
   }
 
 }
