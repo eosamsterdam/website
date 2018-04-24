@@ -210,7 +210,7 @@ fieldset[disabled] .btn-xl.active {
 .navbar-default .nav li a {
   font-family: {{ site.data.template.font.primary }};
   font-size: 12px;
-  font-weight: 100;
+  font-weight: 600;
   letter-spacing: 1px;
   color: #fff;
   -webkit-transition: all ease .35s;
