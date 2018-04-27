@@ -31,6 +31,21 @@
       <ul class="meetup-list">
 
 
+
+        <li>
+          <div class="meetup-date">
+            <span class="dom">8</span>
+            <span class="month">may</span>
+          </div>
+
+          <div class="meetup-info">
+            <h5>
+              <a class="meetup-link" href="https://www.youtube.com/channel/UC0fwWI2RBBtEIYIP6fH68XQ">Launchgroup Panel @ EOSRad</a>
+            </h5>
+            <p>EOS Amsterdam will discuss the Trinity launch group progress on the EOSRad live stream <i class="fa fa-arrow-right"></i></p>
+          </div>
+        </li>
+
         <li>
           <div class="meetup-date">
             <span class="dom">16</span>
@@ -47,38 +62,49 @@
 
         <li>
           <div class="meetup-date">
-            <span class="dom">8</span>
+            <span class="dom">24</span>
             <span class="month">may</span>
           </div>
 
           <div class="meetup-info">
             <h5>
-              <a class="meetup-link" href="https://www.youtube.com/channel/UC0fwWI2RBBtEIYIP6fH68XQ">Launchgroup Panel @ EOSRad</a>
+              <a class="meetup-link" href="https://www.meetup.com/EOS-Amsterdam/events/250210242/">Meetup #3: Tesloop on EOS</a>
             </h5>
-            <p>EOS Amsterdam will discuss the Trinity launch group progress on the EOSRad live stream <i class="fa fa-arrow-right"></i></p>
+            <p>EOS Amsterdam meetup #3 in the center of Amsterdam. General discussion and Tesloop on EOS <i class="fa fa-arrow-right"></i></p>
           </div>
         </li>
 
-
-        {% for meetup in site.data.meetups reversed limit:3 %}
         <li>
-          {% assign date_month =  "%b" %}
-          {% assign date_dom =  "%-d" %}
-
-
           <div class="meetup-date">
-            <span class="dom">{{ meetup.local_date | date: date_dom }}</span>
-            <span class="month">{{ meetup.local_date | date: date_month }}</span>
+            <span class="dom">3</span>
+            <span class="month">Apr</span>
           </div>
 
           <div class="meetup-info">
             <h5>
-              <a class="meetup-link" href="{{ meetup.link  }}">{{ meetup.name | escape }}</a>
+              <a class="meetup-link" href="https://www.meetup.com/EOS-Amsterdam/events/249264829/">Meetup #2: Governance and Arbitration</a>
             </h5>
-            <p>{{ meetup.description | strip_html | slice: 0, 120 }} <i class="fa fa-arrow-right"></i></p>
+            <p>A Governed chain? What does this exactly mean? Join EOS Amsterdam to discuss this new phenomenon  <i class="fa fa-arrow-right"></i></p>
           </div>
         </li>
-        {% endfor %}
+
+
+<li>
+
+          <div class="meetup-date">
+            <span class="dom">13</span>
+            <span class="month">Mar</span>
+          </div>
+
+          <div class="meetup-info">
+            <h5>
+              <a class="meetup-link" href="https://www.meetup.com/EOS-Amsterdam/events/248538574/">Meetup #1: General Talk</a>
+            </h5>
+            <p>It may be strange to go to The Hague for an EOS Amsterdam meetup, to explain, EOS Amsterdam is the name of the founding  <i class="fa fa-arrow-right"></i></p>
+          </div>
+        </li>
+
+
       </ul>
 
       <a class="more-posts" href="https://www.meetup.com/EOS-Amsterdam/">More events <i class="fa fa-arrow-right"></i></a>
