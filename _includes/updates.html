@@ -28,10 +28,22 @@
     <div class="inner">
       <h3>Events</h3>
 
-
-
-
       <ul class="meetup-list">
+
+
+        <li>
+          <div class="meetup-date">
+            <span class="dom">16</span>
+            <span class="month">may</span>
+          </div>
+
+          <div class="meetup-info">
+            <h5>
+              <a class="meetup-link" href="http://pensiontechsummit.com/">Presentation at PensionTech Summit 2018</a>
+            </h5>
+            <p>EOS Amsterdam will speak on the impact of EOS technology on our pensions <i class="fa fa-arrow-right"></i></p>
+          </div>
+        </li>
 
         <li>
           <div class="meetup-date">
@@ -47,19 +59,6 @@
           </div>
         </li>
 
-        <li>
-          <div class="meetup-date">
-            <span class="dom">16</span>
-            <span class="month">may</span>
-          </div>
-
-          <div class="meetup-info">
-            <h5>
-              <a class="meetup-link" href="http://pensiontechsummit.com/">Presentation at PensionTech Summit 2018</a>
-            </h5>
-            <p>EOS Amsterdam will speak on the impact of EOS technology on how pensions may be managed<i class="fa fa-arrow-right"></i></p>
-          </div>
-        </li>
 
         {% for meetup in site.data.meetups reversed limit:3 %}
         <li>
