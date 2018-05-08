@@ -1,0 +1,76 @@
+site:
+  name: EOS Amsterdã
+  tagline: Candidato a Block Producer
+  langcode: br
+header:
+  header1: EOS Amsterdã
+  header2: Candidato a Block producer
+  header3: Amsterdã / Holanda
+  eos: EOS
+  mission: Missão
+  tech: Technologia
+  team: Equipe
+  updev: Atualizações & Eventos
+  contact: Contato
+  langtxt: Idiomas
+  intro: Pioneiros em block producer e candidatos ao lançamento comunitário do blockchain baseado no EOS.io. Estamos situados em Amsterdã.
+  tell: CONTE-ME MAIS
+eos:
+  whatwedo: O QUE FAZEMOS COM EOS
+  operate1: OPERAR
+  operate2: Temos as pessoas, o orçamento e a experiência disponível para operar a infraestrutura do block producer. Nosso time tem ampla experiência no gerenciamento e proteção de ambientes bancários de alta disponibilidade, entidades e websites, incluindo proteção contra ataques cibernéticos e DDoS. Temos desenvolvido e operado plataformas de negociação por vários anos. Nossa equipe está disponível 24x7.
+  develop1: DESENVOLVER
+  develop2: Queremos investir na construção de infraestruturas e aplicações distribuídas que ofereçam valor real para a comunidade. Nossos investimentos estão em apps e dapps focados em integração, identidade, reputação, segurança e usabilidade da plataforma.
+  govern1: GOVERNAR
+  govern2: Nós operamos sob valores humanos globais como liberdade, privacidade e propriedade, e cumprimos as regras européias que traduziram esses valores em leis. Isso significa que temos a privacidade como base. Aconselhamos e tentamos assegurar a compatibilidade do contrato e da propriedade no quadro jurídico existente.
+  promote1: PROMOVER
+  promote2: Organizamos encontros e workshops para desenvolvedores, empreendedores e investidores para evangelizar o poder dos conceitos por trás da EOS. Também planejamos ajudar novas empresas oferecendo palestras e treinamento local. Nossa equipe de especialistas em criptografia se concentra em ajudar a construir e operar a infraestrutura para apoiar a comunidade EOS.
+mission:
+  heading1: Missão
+  heading2: Olá! Nós somos a EOS Amsterdã. Originários da Holanda, temos excelência no comércio global e em conectar o mundo, e isso remonta ao século XVII. Nosso habitat? A capital deste país - uma cidade próspera com uma população bem educada, liberal e internacionalmente orientada. Além disso, o Amsterdã Internet Exchange está por perto. Esta é a segunda maior bolsa de Internet do mundo, baseada no número de membros conectados e na quantidade de tráfego da Internet.
+  accountable1: Responsável & Transparente
+  accountable2: Por sermos uma entidade legal registrada na Holanda, podemos ser responsabilizados por nossas ações, mudanças, fracassos e investimentos. Ficamos em contato bem próximo com a nossa comunidade. A Holanda é uma democracia madura e um membro estável da União Europeia.
+  consistent1: MELHORIA CONTÍNUA
+  consistent2: Revisamos constinuamente nossas operações e infraestrutura para encontrar melhorias. Acreditamos que melhorias repetitivas e marginais resultam em um serviço qualitativo.
+  location1: LOCALIZADO EM AMSTERDÃ
+  location2: Os holandeses, e especialmente as pessoas de Amsterdã, são bem conhecidas por suas mentes liberais e sua visão aberta para o mundo. É a mente das pessoas que hospedam a importante função do hub da Internet.
+  reciprocity1: RECIPROCIDADE
+  reciprocity2: Nós temos um envolvimento em tempo integral na comunidade EOS, portanto, sabemos ouvir. Sabemos o que a comunidade quer e devolvemos a eles.
+  secure1: SEGURO
+  secure2: Colaboramos de perto com a Kahuna, uma provedora de serviços gerenciáveis de segurança na Holanda e na Espanha. Esta empresa irá proteger, gerenciar e monitorar nossa infraestrutura de block producer 24x7.
+  independent1: INDEPENDENTE
+  independent2: Pessoas, orçamento e experiência; Já temos tudo pronto para configurar e monitorar a infraestrutura do block producer. O resultado? Somos capazes de operar de forma independente.
+tech:
+  heading1: TECNOLOGIA
+  heading2: Trabalhar a partir de Amsterdã significa que estamos o mais perto possível do AMS-IX. Além disso, nosso multi data center com nós standby totalmente sincronizados permite uma alta disponibilidade. Com nosso cluster de servidores gerenciados por uma equipe experiente e monitoramento 24x7 podemos garantir tempos de resposta rápidos.<br><br>Como empresa pretendemos evitar a centralização por não usar nenhuma das plataformas populares de hospedagem em nuvem no segundo estágio. No primeiro estágio, como o software usa apenas um núcleo de CPU, usaremos a plataforma do Google Cloud para determinar o dimensionamento futuro.<br><br>Mais informações sobre nossos servidores testnet podem ser encontradas abaixo.
+  am31: DATA CENTER AM3 AMSTERDAM IBX®
+  am32: A Equinix International Business Exchange™ (IBX) AM3 é quem hospeda o Equinix Cloud Exchange e o AMS-IX, NL-IX. Ele se conecta com Vancis e NIKHEF provendo acesso a centenas de redes. A AM3 também está conectada ao campus do Sudeste de Amsterdã e a AM6, AM8 através da Metro Connect. Ela está localizada a 19km do Aeroporto Schiphol de Amsterdã, no Science Park Amsterdam.
+  am71: DATA CENTER AM7 AMSTERDAM IBX®
+  am72: A AM7 conecta os clientes ao ecossistema em expansão da Equinix com provedores de serviços em nuvem, operadores de rede, organizações de serviços financeiros e clientes corporativos, oferecendo novas perspectivas e oportunidades de negócios. A AM7 oferece eficiência energética excepcional, reduzindo seu impacto ambiental e aumentando a eficiência operacional.
+  readmore: Leia mais
+team:
+  heading: EQUIPE
+  boy:
+    heading: FUNDADOR / ESTRATÉGIA | ENG. DE SOFTWARE FULLSTACK
+    desc: Um engenheiro de software fullstack que tem estado ativo na indústria da internet há mais de vinte anos. Boy trabalhou nos setores de telecomunicações, website, jogos e tecnologia financeira e agora está totalmente engajado no espaço criptográfico. Ele tem uma vasta experiência na criação de infraestruturas de alta disponibilidade e na execução de aplicativos de tecnologia financeira críticos, construindo equipes distribuídas e mantendo as coisas em andamento. Leia suas motivações pessoais em um post da Steemit que ele escreveu&#58; <a href="https://steemit.com/introduceyourself/@monetashi/eos-solid-long-term-choices-grounded-in-idealism">EOS Solid long-term choices grounded in idealism.</a> Votado pelo próprio Daniel Larimer!
+  rhett:
+    heading: FUNDADOR / ESPECIALISTA EM SEGURANÇA / ESTRATÉGIA
+    desc: Um empreendedor experiente, ativo em segurança da informação e conformidade por mais de vinte anos. CEO e fundador da <a href="https://www.kahuna.nl/en/">Kahuna</a>, um respeitado provedor de serviços de segurança gerenciada. Rhett tem uma vasta experiência em empresas de rápido crescimento, e é o feliz proprietário de um prestigiado prêmio <strong>Deloitte Fast 50 Sustainable Growth</strong>. Com o esperado crescimento exponencial da plataforma EOS, sua experiência é uma contribuição muito valiosa.
+  jetse:
+    heading: FUNDADOR / JURÍDICO / CONSULTOR
+    desc: Treinado para se tornar um técnico, Jetse escolheu a lei sobre a física para se tornar um conselheiro legal inspirador com conhecimentos sobre a lei de blockchain. Ele tem vinte anos de experiência em todos os aspectos legais da tecnologia e é sócio de uma empresa respeitável. Ele é especializado em direito contratual, tokenização de propriedade, governança digital, proteção de dados e propriedade intelectual.
+updev:
+  updates: UTUALIZAÇÕES
+  moreupd: Mais atualizações
+  events: EVENTOS
+  moreev: Mais eventos
+partners: 
+  partners: PARCEIROS
+contact:
+  heading1: CONTATO
+  about1: SOBRE
+  about2: Construir, operar e promover a infraestrutura EOS para ajudar pessoas a se organizarem em comunidades voluntárias de livre comercio assegurando a vida, liberdade e propriedade para todos.
+  eosamsterdam1: EOS AMSTERDÃ
+  eosamsterdam2: Candidato a Block Producer
+  channels1: CANAIS
+  channels2: A EOS Amsterdã BP pode ser contatada através dos seguintes canais. Esperamos falar com você em breve!

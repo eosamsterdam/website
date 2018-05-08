@@ -24,6 +24,7 @@ group :jekyll_plugins do
   gem "github-pages", "177"
   gem "jekyll-haml"
   gem "jekyll-less"
+  gem "jekyll-multiple-languages-plugin"
 
 end
 
