@@ -337,7 +337,7 @@ header .intro-text {
 header .intro-text .logo {
   width: 380px;
   height: 380px;
-  /*background-image: url('/img/logo_en.png');*/
+  background-image: url('/img/logo.png');
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
