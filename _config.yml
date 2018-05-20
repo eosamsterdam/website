@@ -18,10 +18,10 @@ markdown: kramdown
 permalink: pretty
 
 # Languages
-languages: ["EN", "BR", "KO"]
+languages: ["en", "br", "ko"]
 exclude_from_localizations: ["assets", "CNAME"]
-defaultLang: EN
+defaultLang: en
 languageNames:
-  EN: English
-  BR: Portugês Brasileiro
-  KO: 한국어 (South Korea)
+  en: English
+  br: Portugês Brasileiro
+  ko: 한국어 (South Korea)

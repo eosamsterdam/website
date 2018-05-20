@@ -1,7 +1,7 @@
 site:
   name: EOS 암스테르담
   tagline: 블록 생산자 후보
-  langcode: KO
+  langcode: ko
 header:
   header1: EOS 암스테르담	
   header2: 블록 생산자 후보

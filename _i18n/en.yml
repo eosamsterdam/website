@@ -1,7 +1,7 @@
 site:
   name: EOS Amsterdam
   tagline: Block Producer Candidate
-  langcode: EN
+  langcode: en
 header:
   header1: EOS Amsterdam
   header2: Block producer candidate

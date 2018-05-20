@@ -1,7 +1,7 @@
 site:
   name: EOS Amsterdã
   tagline: Candidato a Block Producer
-  langcode: BR
+  langcode: br
 header:
   header1: EOS Amsterdã
   header2: Candidato a Block producer
