@@ -45,21 +45,19 @@
                     <li>
                         <a class="page-scroll" href="#contact">{% t header.contact %}</a>
                     </li>
-                    <li>
-                        <div class="dropdown">
-                          <!--<button class="dropbtn">{% t header.langtxt %}</button>-->
-                          <button class="dropbtn"><img src="/img/lang/{% t site.langcode %}.png"></button>
-                            <div class="dropdown-content">
-                              {% for lang in site.languageNames %}
-                                {% if lang[0] == 'en' %}
-                                  <a href="{{ site.baseurl_root }}/"><img src="/img/lang/{{ lang[0] }}.png">&nbsp;{{ lang[0] | upcase }}</a>
-                                {% else %}
-                                  <a href="{{ site.baseurl_root }}/{{ lang[0] }}/"><img src="/img/lang/{{ lang[0] }}.png">&nbsp;{{ lang[0] | upcase }}</a>
-                                {% endif %}
-                              {% endfor %}
-                            </div>
-                        </div>
-                    </li>
+					<li class="dropdown">
+						<a id="sitelangcode" href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="true"><img src="/img/lang/{% t site.langcode %}.png">&nbsp;{{ site.lang | upcase }} <span class="caret"></span>
+						</a>
+						<ul class="dropdown-menu" role="menu">
+							{% for lang in site.languageNames %}
+								{% if lang[0] == 'en' %}
+									<li><a href="{{ site.baseurl_root }}/"><img src="/img/lang/{{ lang[0] }}.png">&nbsp;{{ lang[0] | upcase }}</a></li>
+								{% else %}
+									<li><a href="{{ site.baseurl_root }}/{{ lang[0] }}/"><img src="/img/lang/{{ lang[0] }}.png">&nbsp;{{ lang[0] | upcase }}</a></li>
+								{% endif %}
+							{% endfor %}
+						</ul>
+					</li>
                 </ul>
             </div>
             <!-- /.navbar-collapse -->
@@ -70,7 +68,6 @@
     <div class="hr"></div>
 
     </nav>
-
 
     <!-- Header -->
     <header>
