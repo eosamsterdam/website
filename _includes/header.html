@@ -51,9 +51,9 @@
 						<ul class="dropdown-menu" role="menu">
 							{% for lang in site.languageNames %}
 								{% if lang[0] == 'en' %}
-									<li><a href="{{ site.baseurl_root }}/"><img src="/img/lang/{{ lang[0] }}.png">&nbsp;{{ lang[0] | upcase }}</a></li>
+                                    <li><a href="{{ site.baseurl_root }}/"><img src="/img/lang/{{ lang[0] }}.png">&nbsp;{{ lang[1] }}</a></li>
 								{% else %}
-									<li><a href="{{ site.baseurl_root }}/{{ lang[0] }}/"><img src="/img/lang/{{ lang[0] }}.png">&nbsp;{{ lang[0] | upcase }}</a></li>
+                                    <li><a href="{{ site.baseurl_root }}/{{ lang[0] }}/"><img src="/img/lang/{{ lang[0] }}.png">&nbsp;{{ lang[1] }}</a></li>
 								{% endif %}
 							{% endfor %}
 						</ul>

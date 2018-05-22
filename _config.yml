@@ -22,6 +22,6 @@ languages: ["en", "br", "ko"]
 exclude_from_localizations: ["assets", "CNAME"]
 defaultLang: en
 languageNames:
-  en: English
-  br: Portugês Brasileiro
-  ko: 한국어 (South Korea)
+  en: English (USA)
+  br: Português (Brasil)
+  ko: 한국어
