@@ -13,7 +13,7 @@ header:
   updev: Atualizações & Eventos
   contact: Contato
   langtxt: Idiomas
-  intro: Pioneiros em block producer e candidatos ao lançamento comunitário do blockchain baseado no EOS.io. Estamos situados em Amsterdã.
+  intro: Candidato a block producer para o lançamento comunitário da blockchain EOS.io. Estamos situados em Amsterdã.
   tell: CONTE-ME MAIS
 eos:
   whatwedo: O QUE FAZEMOS COM EOS
@@ -31,7 +31,7 @@ mission:
   accountable1: Responsável & Transparente
   accountable2: Por sermos uma entidade legal registrada na Holanda, podemos ser responsabilizados por nossas ações, mudanças, fracassos e investimentos. Ficamos em contato bem próximo com a nossa comunidade. A Holanda é uma democracia madura e um membro estável da União Europeia.
   consistent1: MELHORIA CONTÍNUA
-  consistent2: Revisamos constinuamente nossas operações e infraestrutura para encontrar melhorias. Acreditamos que melhorias repetitivas e marginais resultam em um serviço qualitativo.
+  consistent2: Revisamos continuamente nossas operações e infraestrutura para encontrar melhorias. Acreditamos que melhorias repetitivas e marginais resultam em um serviço qualitativo.
   location1: LOCALIZADO EM AMSTERDÃ
   location2: Os holandeses, e especialmente as pessoas de Amsterdã, são bem conhecidas por suas mentes liberais e sua visão aberta para o mundo. É a mente das pessoas que hospedam a importante função do hub da Internet.
   reciprocity1: RECIPROCIDADE
@@ -58,9 +58,9 @@ team:
     desc: Um empreendedor experiente, ativo em segurança da informação e conformidade por mais de vinte anos. CEO e fundador da <a href="https://www.kahuna.nl/en/">Kahuna</a>, um respeitado provedor de serviços de segurança gerenciada. Rhett tem uma vasta experiência em empresas de rápido crescimento, e é o feliz proprietário de um prestigiado prêmio <strong>Deloitte Fast 50 Sustainable Growth</strong>. Com o esperado crescimento exponencial da plataforma EOS, sua experiência é uma contribuição muito valiosa.
   jetse:
     heading: FUNDADOR / JURÍDICO / CONSULTOR
-    desc: Treinado para se tornar um técnico, Jetse escolheu a lei sobre a física para se tornar um conselheiro legal inspirador com conhecimentos sobre a lei de blockchain. Ele tem vinte anos de experiência em todos os aspectos legais da tecnologia e é sócio de uma empresa respeitável. Ele é especializado em direito contratual, tokenização de propriedade, governança digital, proteção de dados e propriedade intelectual.
+    desc: Treinado para se tornar um técnico, Jetse escolheu a lei ao invés da física para se tornar um conselheiro legal inspirador com conhecimentos sobre a lei de blockchain. Ele tem vinte anos de experiência em todos os aspectos legais da tecnologia e é sócio de uma empresa respeitável. Ele é especializado em direito contratual, tokenização de propriedade, governança digital, proteção de dados e propriedade intelectual.
 updev:
-  updates: UTUALIZAÇÕES
+  updates: ATUALIZAÇÕES
   moreupd: Mais atualizações
   events: EVENTOS
   moreev: Mais eventos

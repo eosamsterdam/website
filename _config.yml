@@ -17,8 +17,11 @@ plugins:
 markdown: kramdown
 permalink: pretty
 
+#Excluding from the language folders
+exclude_from_localizations: ["js", "img", "css"]
+
 # Languages
-languages: ["en", "br", "es", "ko", zhs]
+languages: ["en", "br", "es", "ko", zhs, "zht"]
 exclude_from_localizations: ["assets", "CNAME"]
 defaultLang: en
 languageNames:
@@ -27,3 +30,4 @@ languageNames:
   es: Spanish
   ko: 한국어
   zhs: 中文
+  zht: 中文繁體
