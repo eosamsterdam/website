@@ -13,7 +13,17 @@ plugins:
   - jekyll-feed
   - jekyll-seo-tag
 
-
 # Build settings
 markdown: kramdown
 permalink: pretty
+
+# Languages
+languages: ["en", "br", "es", "ko", zhs]
+exclude_from_localizations: ["assets", "CNAME"]
+defaultLang: en
+languageNames:
+  en: English (USA)
+  br: Português (Brasil)
+  es: Spanish
+  ko: 한국어
+  zhs: 中文

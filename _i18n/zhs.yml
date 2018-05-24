@@ -1,0 +1,77 @@
+site:
+  name: EOS Amsterdam
+  tagline: 区块生产者候选人
+  langcode: zhs
+header:
+  header1: EOS 阿姆斯特丹
+  header2: 区块生产者候选人
+  header3: 阿姆斯特丹/荷兰
+  eos: EOS
+  mission: 任务
+  tech: 技术
+  team: 团队
+  updev: 更新和事件
+  contact: 联系
+  langtxt: 语言
+  intro: （作为EOS.io 区块链社区创始人候选人） 位于阿姆斯特
+
+  tell: （更多信息）
+eos:
+  whatwedo: 我们用EOS做什么呢
+  operate1: 经营
+  operate2: 我们拥有人才，资金和经验可用于运营区块链的基础设施。 我们的团队在资金管理，保密工作和网站空间等方面拥有丰富的专业知识和经验，并且可以保护他们免受包括DDoS在内的一些网络攻击。 多年来，我们一直在开发和经营交易平台。 并且我们的团队提供每天24小时的服务。
+  develop1: 研制
+  develop2: 我们准备将投资用于为我们的社区提供有真正价值的基础设施和分布式应用程序方面。 我们的投资很可能会涉及应用程序以及就Dapps的开立账户，身份，声誉，安全性和可用性等问题。
+  govern1: 治理
+  govern2: 我们领导全球人类的价值观，如自由，隐私和财产。 并严格遵守欧盟法律规定将这些价值观转化为合法的欧洲规则。  这意味着： 根据欧盟法律的规定，我们是以隐私为基础开展工作的。 我们建议在现有的法律框架内确保合同和所有权的相容性。
+  promote1: 促进
+  promote2: 我们为开发商，企业家和投资者组织会议和研讨会来传授EOS背后的概念力量。 我们还计划通过提供讲座和现场培训帮助合伙公司。 我们的加密专家团队专注于帮助构建和运营基础架构以支持EOS社区。
+mission:
+  heading1: 任务
+  heading2: 大家好！我们是EOS阿姆斯特丹。 源自荷兰，我们一直擅长全球贸易和与世界的接轨。 这可追溯到十七世纪。 我们的聚集地？ 那是这个国家的首都，一个受过良好教育，自由和国际化的繁荣城市。 此外，阿姆斯特丹互联网交易所也在附近。这是一个互联网成员数量和互联网流量在全球排名第二的互联网交易平台。
+  accountable1: 可靠和透明
+  accountable2: 由于我们是在荷兰注册的法人实体，我们可以对自己的行为，变动，失败和投资负责。 我们与我们的社区保持密切联系。 荷兰是一个成熟的民主国家，也是欧盟稳定的成员国。
+  consistent1: 持续改进
+  consistent2: 我们不断审查我们的运营和基础设施，以找到改进。我们相信重复不断并且对各种细节的修改会带来定性服务）
+  location1: 位于阿姆斯特丹
+  location2: 荷兰人，尤其是阿姆斯特丹人，他们以自由的思想和对世界的开放看法而闻名。 承载这样一个重要的互联网枢纽功能正是人们的心意。
+  reciprocity1: 互惠
+  reciprocity2: 我们全职参与了EOS的社区建设。因此，我们也密切关注社区成员的需求。我们知道社区想要什么，并回馈给他们。
+  secure1: 安全
+  secure2: 我们与Kauna公司密切合作，Kauna是荷兰和西班牙的托管安全服务提供商。该公司将每天24小时保护 管理和监控我们的区块生产基础设施。
+  independent1: 独立
+  independent2: 人员，资金预算和经验; 一切都已到位，可以建立和监测区块生产基础设施。 结果会如何？ 我们能够独立完成运作。
+tech:
+  heading1: 技术
+  heading2: 在阿姆斯特丹工作意味着我们尽可能接近AMS-IX。 此外，我们的多数据中心具有完全同步的节点待机状态，可实现高速度和低延迟。我们的服务器场由一个经验丰富的团队每天24小时监控管理，我们可以确保快速响应时间。<br> <br>作为EOS阿姆斯特丹，我们旨在第二个阶段不使用任何一个云托管平台来避免集中化阶段。 在第一阶段，当软件仅使用一个CPU核心时，我们将使用Google云端平台来确定future的大小。<br> <br>有关我们的测试服务器的更多信息，请参阅下文。
+  am31: AM3阿姆斯特丹数据中心
+  am32: 国际商业交易所（IBX）AM3承载Equinix Cloud Exchange和AMS-IX，NL-IX。 它与Vancis和NIKHEF连接，提供对数百个网络的访问。 AM3也连接到阿姆斯特丹东南校区和<a href="https://www.equinix.nl/locations/netherlands-colocation/amsterdam-data-centers/am6/">AM6</a>, <a href="https://www.equinix.nl/locations/netherlands-colocation/amsterdam-data-centers/am8/">AM8</a> 通过Metro Connect。 它位于阿姆斯特丹科学园阿姆斯特丹史基浦机场19公里处
+  am71: AM7 AMSTERDAM IBXÂ® DATA CENTER
+  am72: AM7将客户与Equinix不断扩大的云服务提供商，网络运营商，金融服务机构和企业客户生态系统相互连接，为客户提供新的商业前景和机会。 AM7提供卓越的能源效率，减少对环境的影响并提高运营效率。
+  readmore: 了解更多
+team:
+  heading: 团队成员
+  boy:
+    heading: 创始人/策略/全栈SE
+    desc: 位已经在互联网行业工作了二十多年的全栈软件工程师。他曾在电信，网站，游戏和金融技术部门工作过，现在已经完全投身于加密领域。 他在建立高可用性基础设施和运行关键任务金融科技应用程序，建立分布式团队以及保持事态发展方面拥有丰富的经验。 在他撰写的Steemit文章中提到他的个人动机&#58; <a href="https://steemit.com/introduceyourself/@monetashi/eos-solid-long-term-choices-grounded-in-idealism">EOS Solid long-term choices grounded in idealism</a> 由丹尼尔Larimer自己upvoted！
+  rhett:
+    heading: 创始人/安全专家/策略人
+    desc: 位经验丰富的企业家，从事信息安全和（###合规工作###）已有二十多年。 CEO外加创始人<a href="https://www.kahuna.nl/en/">Kahuna</a>, 个受尊敬的托管安全服务提供商。 Rhett对企业的快速成长方面拥有丰富的经验，是一位享有盛名的幸运儿。<strong>Deloitte Fast 50 Sustainable Growth award德勤高速50强可持续发展奖</strong>. With the expected exponential growth of the EOS platform, his experience is a very valuable contribution.随着EOS平台在预期指数中顺利增长，他的经验提供了非常有价值的贡献。
+  jetse:
+    heading: 创始人/法律顾问
+    desc: 经过专业培训成为技术人员，Jetse选择了法律而不是物理学，成为一名具有区块链法律知识的专业法律顾问。 他有二十多年的法律工作经验，并且是一家知名公司的合伙人。 Jetse擅长合同法，所有权的所有权化，数字治理，数据保护和知识产权。
+updev:
+  updates: 更新
+  moreupd: 更多更新
+  events: 活动
+  moreev: 更多活动
+partners:
+  partners: 伙伴
+contact:
+  heading1: 联系
+  about1: 关于
+  about2: 建设，运营和推广EOS基础设施，帮助社员组织进入自愿的自由市场社区，以确保所有人的生命，自由和财产安全。
+  eosamsterdam1: EOS阿姆斯特丹
+  eosamsterdam2: 区块生产者候选人
+  channels1: 途径
+  channels2: EOS Amsterdam BP可通过以下途径可以到达。 希望能尽快与您联系！

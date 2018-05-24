@@ -14,9 +14,9 @@
                     <img src="/img/logo-symbol.png">
                   </div>
                   <div class="brand-text">
-                    <span>EOS Amsterdam</span>
-                    <span>Block producer candidate</span>
-                    <span>Amsterdam / The Netherlands</span>
+                    <span>{% t header.header1 %}</span>
+                    <span>{% t header.header2 %}</span>
+                    <span>{% t header.header3 %}</span>
                   </div>
                 </a>
             </div>
@@ -28,25 +28,36 @@
                         <a href="#page-top"></a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#eos">EOS</a>
+                        <a class="page-scroll" href="#eos">{% t header.eos %}</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#mission">Mission</a>
+                        <a class="page-scroll" href="#mission">{% t header.mission %}</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#tech">Tech</a>
+                        <a class="page-scroll" href="#tech">{% t header.tech %}</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#team">Team</a>
+                        <a class="page-scroll" href="#team">{% t header.team %}</a>
                     </li>
                     <li class="updates-and-events">
-                        <a class="page-scroll" href="#updates-and-events" >Updates & Events</a>
+                        <a class="page-scroll" href="#updates-and-events" >{% t header.updev %}</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#contact">Contact</a>
+                        <a class="page-scroll" href="#contact">{% t header.contact %}</a>
                     </li>
-
-
+					<li class="dropdown">
+						<a id="sitelangcode" href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="true"><img src="/img/lang/{% t site.langcode %}.png">&nbsp;{{ site.lang | upcase }} <span class="caret"></span>
+						</a>
+						<ul class="dropdown-menu" role="menu">
+							{% for lang in site.languageNames %}
+								{% if lang[0] == 'en' %}
+                                    <li><a href="{{ site.baseurl_root }}/"><img src="/img/lang/{{ lang[0] }}.png">&nbsp;{{ lang[1] }}</a></li>
+								{% else %}
+                                    <li><a href="{{ site.baseurl_root }}/{{ lang[0] }}/"><img src="/img/lang/{{ lang[0] }}.png">&nbsp;{{ lang[1] }}</a></li>
+								{% endif %}
+							{% endfor %}
+						</ul>
+					</li>
                 </ul>
             </div>
             <!-- /.navbar-collapse -->
@@ -58,16 +69,16 @@
 
     </nav>
 
-
     <!-- Header -->
     <header>
         <div class="container">
             <div class="intro-text">
+              <!--<div class="logo" style="background-image: url('/img/logo_{% t site.langcode %}.png');"></div>-->
               <div class="logo"></div>
               <div class="intro-text-inner">
                 <div class="intro-lead-in">
-                  Founding block producer candidate for the community launch of EOS.io based blockchain. Amsterdam based.</div>
-                <a href="#eos" class="page-scroll btn btn-xl" id="tell-me-more">Tell Me More</a>
+                  {% t header.intro %}</div>
+                <a href="#eos" class="page-scroll btn btn-xl" id="tell-me-more">{% t header.tell %}</a>
               </div>
             </div>
         </div>

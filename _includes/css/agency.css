@@ -190,8 +190,8 @@ fieldset[disabled] .btn-xl.active {
   color: #{{ site.data.template.color.secondary }};
 }
 
-.navbar-default {
-  background-color: rgba(6, 68, 137, 0.8);
+.navbar-default {rgba(6, 68, 137, 0.8)
+  background-color: ;
 }
 
 
@@ -212,7 +212,7 @@ fieldset[disabled] .btn-xl.active {
   font-size: 12px;
   font-weight: 600;
   letter-spacing: 1px;
-  color: #fff;
+  /*color: #fff;*/
   -webkit-transition: all ease .35s;
   -moz-transition: all ease .35s;
   transition: all ease .35s;
@@ -356,10 +356,10 @@ header .intro-text .intro-text-inner {
 
 
 header .intro-text .intro-lead-in {
-  margin-bottom: 25px;
+  margin-bottom: 15px;
   font-family: {{ site.data.template.font.secondary }};
-  font-size: 22px;
-  line-height: 22px;
+  font-size: 20px;
+  line-height: 20px;
 }
 
 
@@ -372,8 +372,8 @@ header .intro-text .intro-lead-in {
   header .intro-text .intro-lead-in {
     margin-bottom: 45px;
     font-family: {{ site.data.template.font.secondary }};
-    font-size: 40px;
-    line-height: 60px;
+    font-size: 36px;
+    line-height: 56px;
 
   }
 
@@ -538,7 +538,6 @@ section h4 {
 
 }
 
-
 #team p a {
   color: #010053;
   text-decoration: underline;
@@ -547,7 +546,6 @@ section h4 {
 #team .team-member  {
   margin-bottom: 20px;
 }
-
 
 @media(min-width:1200px) {
 
