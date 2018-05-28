@@ -1,27 +1,24 @@
 <section id="updates-and-events">
   <div class="updates">
     <div class="inner">
-      <h3 class="section-heading">{% t updev.updates %}</h3>
+      <h3>{% t updev.updates %}</h3>
       <ul class="post-list">
-        <!--{% for post in site.posts limit:3 %}
-        {% if post.hide %} {% continue %} {% endif  %}
-        <li>
-          {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
-          <span class="post-meta">{{ post.date | date: date_format }}</span>
 
-          <h5>
-            <a class="post-link" href="{{ post.steemit }}">{{ post.title | escape }}</a>
-          </h5>
-          <p>{{ post.subtitle }} <i class="fa fa-arrow-right"></i></p>
-        </li>
-        {% endfor %}-->
+        {% for entry in site.data.updates limit:5 %}
         <li>
-          <span class="post-meta">May, 27th 2018</span>
-          <h5>
-            <a class="post-link" href="https://steemit.com/eos/@eosamsterdam/3o8dxg-eos-amsterdam-stance-on-one-mainnet">EOS Amsterdam Stance on One Mainnet</a>
-          </h5>
-          <p>As the launch of EOS nears, speculation within the community concerning competing... <a href="https://steemit.com/eos/@eosamsterdam/3o8dxg-eos-amsterdam-stance-on-one-mainnet"><i class="fa fa-arrow-right"></i></a></p>
+          <div class="post-date">
+            <span class="dom">{{ entry.day }}</span>
+            <span class="month">{{ entry.month }}</span>
+          </div>
+          <div class="post-info">
+            <h5>
+              <a class="post-link" href="{{ entry.url }}">{{ entry.title }}</a>
+            </h5>
+            <p>{{ entry.description }} <a href="{{ entry.url }}"><i class="fa fa-arrow-right"></i></a></p>
+          </div>
         </li>
+        {% endfor %}
+        
       </ul>
       <a class="more-posts" href="https://steemit.com/@eosamsterdam">{% t updev.moreupd %} <i class="fa fa-arrow-right"></i></a>
     </div>

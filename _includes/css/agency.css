@@ -598,6 +598,8 @@ section h4 {
   width: 500px;
 }
 
+/* Updates */
+
 #updates-and-events .updates {
     background-color: #010053;
     color: #fff;
@@ -610,7 +612,6 @@ section h4 {
 #updates-and-events .updates i {
   color: #64D8F0;
 }
-
 
 #updates-and-events .updates ul  {
   padding: 0px;
@@ -631,18 +632,68 @@ section h4 {
   margin: 100px 0 50px;
 }
 
-
 #updates-and-events .updates h5  {
   margin: 0;
   font-size: 20px;
   text-transform: none;
 }
 
-
 #updates-and-events .updates h5 a {
     color: #64D8F0;
 }
 
+#updates-and-events .updates .post-date {
+  width: 117px !important;
+  background-color: #64D8F0;
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-right: 20px;
+  flex-grow: 1;
+}
+
+#updates-and-events .updates .post-date .dom {
+  color: #010053;
+  font-size: 36px;
+}
+
+#updates-and-events .updates .post-date .month {
+  color: #010053;
+  font-size: 18px;
+  text-transform: lowercase;
+  margin-top: -10px;
+}
+
+#updates-and-events .updates ul.post-list li {
+  display: flex;
+  align-items: flex-start;
+  margin: 5px 0;
+  height: 130px;
+}
+
+#updates-and-events .updates .post-info {
+  width: 100%;
+}
+
+@media(max-width:500px) {
+  #updates-and-events .updates ul.post-list li {
+    height: 160px;
+  }
+}
+
+@media(max-width:450px) {
+  #updates-and-events .updates ul.post-list li {
+    height: 180px;
+  }
+}
+
+@media(max-width:400px) {
+  #updates-and-events .updates ul.post-list li {
+    height: 230px;
+  }
+}
 
 /* Events */
 
@@ -676,13 +727,11 @@ section h4 {
   margin: 100px 0 50px;
 }
 
-
 #updates-and-events .events h5  {
   margin: 0;
   font-size: 20px;
   text-transform: none;
 }
-
 
 #updates-and-events .events a {
     color: #010053;
@@ -701,8 +750,8 @@ section h4 {
   display: flex;
   align-items: flex-start;
   margin: 5px 0;
+  height: 130px;
 }
-
 
 #updates-and-events .events .meetup-date {
   width: 117px !important;
@@ -714,13 +763,11 @@ section h4 {
   align-items: center;
   margin-right: 20px;
   flex-grow: 1;
-
 }
 
 #updates-and-events .events .meetup-info {
   width: 100%;
 }
-
 
 #updates-and-events .events .meetup-date .dom {
   color: #64D8F0;
@@ -733,7 +780,6 @@ section h4 {
   text-transform: lowercase;
   margin-top: -10px;
 }
-
 
 @media(max-width:1000px) {
   #updates-and-events {
@@ -754,6 +800,18 @@ section h4 {
 
 }
 
+@media(max-width:500px) {
+  #updates-and-events .events ul.meetup-list li {
+    height: 160px;
+  }
+}
+
+@media(max-width:450px) {
+  #updates-and-events .events ul.meetup-list li {
+    height: 180px;
+  }
+}
+
 @media(max-width:400px) {
   #updates-and-events .updates {
   }
@@ -762,6 +820,10 @@ section h4 {
 
   #updates-and-events .inner {
     width: 100%;
+  }
+
+  #updates-and-events .events ul.meetup-list li {
+    height: 230px;
   }
 }
 
