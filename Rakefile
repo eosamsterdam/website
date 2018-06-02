@@ -1,5 +1,7 @@
 
-file ".lastbuild" => FileList["**/*"].exclude(/_site/) do
+PROJECT_FILES=FileList["**/*"].exclude(/_site/)
+
+file ".lastbuild" => PROJECT_FILES do
   sh %[bundle exec jekyll build]
   sh %[touch .lastbuild]
 end
