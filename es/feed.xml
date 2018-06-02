@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>EOS Amsterdam / Block Producer Candidate</title>
+    <description>Building, operating and promoting the EOS infrastructure to help people organize into voluntary free-market communities securing life, liberty, and property for all.</description>
+    <link>https://www.eosamsterdam.net/es/</link>
+    <atom:link href="https://www.eosamsterdam.net/es/feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Sat, 02 Jun 2018 13:06:09 +0200</pubDate>
+    <lastBuildDate>Sat, 02 Jun 2018 13:06:09 +0200</lastBuildDate>
+    <generator>Jekyll v3.6.2</generator>
+    
+  </channel>
+</rss>
