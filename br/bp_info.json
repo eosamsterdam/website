@@ -1,0 +1,47 @@
+{
+  "producer_account_name": "eosamsterdam",
+  "producer_public_key": "EOS8HDwgQnKMHAxzva9eyHsPeETv23JSQ6RRzQjJLvCsZ6b1ySgQo",
+  "org": {
+    "candidate_name": "EOS Amsterdam",
+    "website": "https://eosamsterdam.net",
+    "code_of_conduct":"https://steemit.com/eos/@eosamsterdam/eos-amsterdam-code-of-conduct",
+    "email":"contact@eosamsterdam.net",
+    "branding":{
+      "logo_256":"https://eosamsterdam.net/branding/logo_256.png",
+      "logo_1024":"https://eosamsterdam.net/branding/logo_1024.png",
+      "logo_svg":"https://eosamsterdam.net/branding/logo_svg.svg"
+    },
+    "location": {
+      "name": "Amsterdam",
+      "country": "Netherlands",
+      "latitude": 52.3548445,
+      "longitude": 4.96003670
+    },
+
+    "social": {
+      "steemit": "https://steemit.com/@eosamsterdam",
+      "twitter": "https://twitter.com/eosamsterdam",
+      "youtube": "https://www.youtube.com/channel/UCHCrTf4Nbqz8S017kgs4vjA",
+      "facebook": "https://www.facebook.com/EOS-Amsterdam-1586544661442120/",
+      "github":"https://github.com/eosamsterdam",
+      "reddit": "https://www.reddit.com/user/eosamsterdam/",
+      "keybase": "https://keybase.io/monetashi",
+      "telegram": "https://t.me/eosamsterdam",
+      "wechat":""
+    }
+  },
+  "nodes": [
+    {
+      "location": {
+        "name": "Eemshaven",
+        "country": "Netherlands",
+        "latitude": 53.2654,
+        "longitude": 6.4952
+      },
+      "is_producer": true,
+      "p2p_endpoint": "nl.eu-west.eosamsterdam.net:9867",
+      "api_endpoint": "nl.eu-west.eosamsterdam.net:80",
+      "ssl_endpoint": "nl.eu-west.eosamsterdam.net:443"
+    },
+  ]
+}
