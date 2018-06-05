@@ -40,8 +40,8 @@
       },
       "is_producer": true,
       "p2p_endpoint": "eu-west-nl.eosamsterdam.net:9867",
-      "api_endpoint": "eu-west-nl.eosamsterdam.net:80",
-      "ssl_endpoint": "eu-west-nl.eosamsterdam.net:443"
+      "api_endpoint": "http://eu-west-nl.eosamsterdam.net:80",
+      "ssl_endpoint": "https://eu-west-nl.eosamsterdam.net:443"
     }
   ]
 }

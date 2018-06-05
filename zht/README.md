@@ -5,7 +5,7 @@ With <3 from Amsterdam
 
 ## bp.info
 
-https://github.com/EOSPortal/bp-info-standard
+https://github.com/eosrio/bp-info-standard
 
 ### branding files are served from this domain
 
