@@ -1,3 +1,0 @@
-[submodule "voting"]
-	path = voting
-	url = git@github.com:eosamsterdam/eos-voting.git
