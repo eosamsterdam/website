@@ -7851,6 +7851,12 @@ section h4 {
 }
 
 
+#partners a {
+  color: #010053;
+  text-decoration: underline;
+}
+
+
 #contact {
   background-color: #010053;
   color: #fff;
