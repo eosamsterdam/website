@@ -18,17 +18,15 @@
       "latitude": 52.3548445,
       "longitude": 4.96003670
     },
-
     "social": {
-      "steemit": "https://steemit.com/@eosamsterdam",
-      "twitter": "https://twitter.com/eosamsterdam",
-      "youtube": "https://www.youtube.com/channel/UCHCrTf4Nbqz8S017kgs4vjA",
-      "facebook": "https://www.facebook.com/EOS-Amsterdam-1586544661442120/",
-      "github":"https://github.com/eosamsterdam",
-      "reddit": "https://www.reddit.com/user/eosamsterdam/",
-      "keybase": "https://keybase.io/monetashi",
-      "telegram": "https://t.me/eosamsterdam",
-      "wechat":""
+      "steemit": "eosamsterdam",
+      "twitter": "eosamsterdam",
+      "youtube": "UCHCrTf4Nbqz8S017kgs4vjA",
+      "facebook": "EOS-Amsterdam-1586544661442120",
+      "github":"eosamsterdam",
+      "reddit": "eosamsterdam",
+      "keybase": "monetashi",
+      "telegram": "eosamsterdam"
     }
   },
   "nodes": [
