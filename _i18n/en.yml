@@ -4,7 +4,7 @@ site:
   langcode: en
 header:
   header1: EOS Amsterdam
-  header2: Block producer candidate
+  header2: Block producer
   header3: Amsterdam / The Netherlands
   eos: EOS
   mission: Mission
@@ -13,7 +13,7 @@ header:
   updev: Updates & Events
   contact: Contact
   langtxt: Languages
-  intro: Founding block producer candidate for the community launch of EOS.io based blockchain. Amsterdam based.
+  intro: Founding block producer for the EOS.io based blockchain. Amsterdam based.
   tell: TELL ME MORE
 eos:
   whatwedo: WHAT DO WE DO WITH EOS
