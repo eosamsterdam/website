@@ -1,6 +1,6 @@
 site:
   name: EOS Amsterdam
-  tagline: Block Producer Candidate
+  tagline: Block Producer
   langcode: en
 header:
   header1: EOS Amsterdam
@@ -71,6 +71,6 @@ contact:
   about1: ABOUT
   about2: Building, operating and promoting the EOS infrastructure to help people organize into voluntary free-market communities securing life, liberty, and property for all.
   eosamsterdam1: EOS AMSTERDAM
-  eosamsterdam2: Block Producer Candidate
+  eosamsterdam2: Block Producer
   channels1: CHANNELS
   channels2: EOS Amsterdam BP is reachable through the following channels. Hope to speak to you soon!

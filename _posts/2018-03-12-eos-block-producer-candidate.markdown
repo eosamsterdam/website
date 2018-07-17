@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "EOS Block Producer Candidate Introduction"
+title:  "EOS Block Producer Introduction"
 subtitle:  "a strong solid introduction for a solid blockproducer"
 date:   2018-03-12 17:30:14 +0100
 categories: eos block producer introduction
