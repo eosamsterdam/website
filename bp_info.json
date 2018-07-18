@@ -14,7 +14,7 @@
     },
     "location": {
       "name": "Amsterdam",
-      "country": "Netherlands",
+      "country": "NL",
       "latitude": 52.3548445,
       "longitude": 4.96003670
     },
@@ -34,11 +34,11 @@
     {
       "location": {
         "name": "Eemshaven",
-        "country": "Netherlands",
+        "country": "NL",
         "latitude": 53.2654,
         "longitude": 6.4952
       },
-      "is_producer": true,
+      "node_type": "full",
       "p2p_endpoint": "eu-west-nl.eosamsterdam.net:9867",
       "api_endpoint": "http://eu-west-nl.eosamsterdam.net:80",
       "ssl_endpoint": "https://eu-west-nl.eosamsterdam.net:443"
