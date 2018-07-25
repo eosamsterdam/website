@@ -31,17 +31,26 @@
     }
   },
   "nodes": [
-    {
-      "location": {
-        "name": "Eemshaven",
-        "country": "NL",
-        "latitude": 53.2654,
-        "longitude": 6.4952
-      },
-      "node_type": "full",
-      "p2p_endpoint": "eu-west-nl.eosamsterdam.net:9867",
-      "api_endpoint": "http://eu-west-nl.eosamsterdam.net:80",
-      "ssl_endpoint": "https://eu-west-nl.eosamsterdam.net:443"
-    }
+  {
+	  "location": {
+		  "name": "Amsterdam",
+		  "country": "NL",
+		  "latitude": 52.354925,
+		  "longitude": 4.960960
+	  },
+	  "node_type": "producer"
+  },
+  {
+	  "location": {
+		  "name": "Saarbruecken",
+		  "country": "DE",
+		  "latitude": 49.2333,
+		  "longitude": 7
+	  },
+	  "node_type": "full",
+	  "p2p_endpoint": "mainnet.eosamsterdam.net:9867",
+	  "api_endpoint": "http://mainnet.eosamsterdam.net",
+	  "ssl_endpoint": "https://mainnet.eosamsterdam.net"
+  }
   ]
 }
