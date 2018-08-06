@@ -1,10 +1,10 @@
-site:
+﻿site:
   name: EOS 阿姆斯特丹 
-  tagline: 區塊生產者候選人
+  tagline: 區塊生產者
   langcode: zht
 header:
   header1: EOS 阿姆斯特丹
-  header2: 區塊生產者候選人
+  header2: 區塊生產者
   header3: 阿姆斯特丹/荷蘭
   eos: EOS
   mission: 任務
