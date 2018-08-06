@@ -7856,6 +7856,18 @@ section h4 {
   text-decoration: underline;
 }
 
+#partners p {
+    font-size: 26px;
+}
+
+#partners ul {
+  margin-left: 20px;
+}
+#partners ul li {
+  font-size: 26px;
+}
+
+
 
 #contact {
   background-color: #010053;
